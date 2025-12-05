@@ -1,0 +1,75 @@
+# Custom matplotlib theme
+
+#font       ='#F2FFFC'
+
+#baseM0     ='#b8c4c3'
+#baseM1     ='#8b9798'
+#baseM2     ='#6b7678'
+#baseM3     ='#545f62'
+#baseM4     ='#3a4449'
+
+#baseB0     ='#273136'
+#baseB1     ='#1d2528'
+
+#red        ='#ff6d7e'
+#orange     ='#ffb270'
+#yellow     ='#ffed72'
+#green      ='#a2e57b'
+#blue       ='#7cd5f1'
+#purple     ='#baa0f8'
+
+
+figure.facecolor    : 273136 
+figure.edgecolor    : 273136 
+
+patch.antialiased   : True
+patch.edgecolor     : F2FFFC
+
+lines.linewidth     : 1.5
+lines.solid_capstyle: butt
+lines.color         : F2FFFC
+
+text.color          : F2FFFC  # title and legend
+
+axes.titlesize      : 15
+axes.labelsize      : 12
+axes.labelcolor     : F2FFFC  # 'label='
+axes.facecolor      : 273136  # surface, background
+axes.edgecolor      : F2FFFC
+axes.axisbelow      : True
+
+axes.prop_cycle: cycler('color', ['FF6D7E', 'FFB270', 'FFED72', 'A2E57B', '7CD5F1', 'BAA0F8'])
+
+axes.spines.left    : False
+axes.spines.right   : False
+axes.spines.top     : False
+axes.spines.bottom  : False
+
+axes.grid           : True
+grid.color          : 6B7678    # grid color
+# grid.linestyle      : -         # line
+grid.linewidth      : 0.5       # in points
+grid.alpha          : 0.25
+
+
+### Ticks
+xtick.color         : B8C4C3 
+xtick.direction     : out
+
+ytick.color         : B8C4C3 
+ytick.direction     : in
+
+# Save configuration
+savefig.facecolor: 273136
+savefig.edgecolor: 273136
+
+### Boxplots
+boxplot.boxprops.color: F2FFFC
+boxplot.capprops.color: F2FFFC
+boxplot.flierprops.color: F2FFFC
+boxplot.flierprops.markeredgecolor: F2FFFC
+boxplot.whiskerprops.color: F2FFFC
+
+
+font.sans-serif: VictorMono NF, Consolas, JetBrainsMono NF, Victor Mono, Overpass, Helvetica, Helvetica Neue, Arial, Liberation Sans, sans-serif
+image.cmap: Spectral
